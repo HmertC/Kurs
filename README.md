@@ -1,2 +1,4 @@
 # Kurs
-Kurs Çalışmalarım
+Kurs Calismalarim
+Degisikilik olup olmadigi kontrol
+Oldu mu 
