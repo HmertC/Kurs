@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Attribute Selectors </h1>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+    
+    <p title="second">
+        p[title] Lorem ipsum dolor sit amet.
+    </p>
+    <p title="third paragraph">
+        p[title~="paragraph"] Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, eos.
+    </p>
+    <p title="forth paragraph">
+        p[title="#4 paragraph"] Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, unde!
+    </p>
+
+    <p>
+        <a href="https://www.example.net" target="_blank">Example 1</a>
+        <a href="http://www.example.com">Example 2</a>
+
+    </p>
+
+    <p>
+        <input type="text" name="Name">
+        <input type="button" value="Button">
+    </p>
+</body>
+</html>

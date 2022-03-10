@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            color:brown;
+            font-size: 20px;
+        }
+        ul{
+            color: darkgoldenrod;
+            font-size: 15px;
+        }
+        li{
+            color: yellowgreen;
+        }
+        .orange{
+            color: orange !important;
+        }
+        #passive{
+            color: gray;
+            font-size: 25px;
+        }
+        a{
+            color: inherit;
+        }
+        span{
+            color: red;
+            border: 1px solid green;
+        }
+        #inherit span{
+            color: inherit;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="orange"> Komple Uygulamalı Web Geliştirme</h1>
+
+    <ul>
+        <li id="passive" class="orange">Html 5</li>
+        <li>Css</li>
+        <li class="orange">JavaScript</li>
+        <li> <a href="#"></a> Jquary</li>
+    </ul>
+
+    <div id="inherit" style="color:aqua;">
+        Lorem ipsum <span> dolor sit amet consectetur,</span> adipisicing elit.
+    </div>
+    <div style="color: green;">
+        Lorem ipsum <span> dolor sit amet consectetur,</span> adipisicing elit.
+    </div>
+    <div>
+        Lorem ipsum <span> dolor sit amet consectetur,</span> adipisicing elit.
+    </div>
+</body>
+</html>

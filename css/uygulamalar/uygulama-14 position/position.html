@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .box{
+            width: 120px;
+            height: 120px;
+        }
+        .mbox{
+            width: 30px;
+            height: 30px;
+            background-color: gray;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        #first{
+            background-color: blue;
+            width:100%;
+
+            position: sticky;
+            top: 50px;
+        }
+        #second{
+            background-color: yellow;
+            position: relative;
+        }
+        #third{
+            background-color: green;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestias quasi officiis placeat libero dolor, odit natus sed quis nam iure fuga voluptatem praesentium, nulla velit cum beatae at eos est iste laboriosam fugit, quo dignissimos. Excepturi ea deserunt deleniti quia illo veritatis labore. Possimus aliquid sed dolor atque dolorum perferendis ut officiis eos exercitationem maxime, quisquam rem provident voluptatum quae officia consequatur velit porro vel odit minima aliquam sapiente. Similique molestias numquam itaque, consequatur, consectetur nobis culpa quidem esse tenetur delectus obcaecati tempora, voluptatum impedit doloremque officia! Suscipit nisi voluptatem rem rerum dolore quas itaque mollitia illo minus, doloremque excepturi veniam vel ullam corporis, quo placeat optio earum voluptates tempora dicta autem! Perspiciatis mollitia omnis consectetur, veniam distinctio exercitationem. Tempore dolorum assumenda, itaque repudiandae at libero, voluptatibus qui dignissimos ipsa odit temporibus, consequuntur natus fuga facilis recusandae molestias illo voluptate nostrum esse ullam veniam quam optio. Maxime, perspiciatis soluta.</p>
+    <div class="box" id="first">box 1</div>
+    <div class="box" id="second">box 2
+        <div class="box" id="mbox"></div>
+    </div>
+    <div class="box" id="third">box 3</div>
+    <div style="height: 2000px;"></div>
+</body>
+</html>
